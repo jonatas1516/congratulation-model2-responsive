@@ -112,7 +112,9 @@
 .footer {
   margin-right: 2rem;
   margin-top: 8rem;
-  text-align: end;
+  position: absolute;
+  top: 37rem;
+  margin-left: 1rem;
 }
 
 @media screen and (max-width: 882px) {
@@ -148,6 +150,10 @@
   .learn-more {
     margin: 0 0 0 10rem;
     text-align: center;
+  }
+
+  .footer {
+    top: 51rem;
   }
 }
 
