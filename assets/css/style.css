@@ -109,6 +109,12 @@
   transition: 0.3s;
 }
 
+.footer {
+  margin-right: 2rem;
+  margin-top: 8rem;
+  text-align: end;
+}
+
 @media screen and (max-width: 882px) {
   * {
     transition: 0.8s;
